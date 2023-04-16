@@ -16,9 +16,9 @@ my_model = pickle.load(open('model_klasifikasi_car_loan.pkl', 'rb'))
 
 # Pilihan utama
 
-pilihan = st.selectbox('What part of the process that you would like to investigate?',['Prediksi dari file xlsx','Input Manual'])
+pilihan = st.selectbox('What part of the process that you would like to investigate?',['Prediction from file xlsx','Input Manual'])
 
-if pilihan == 'Prediksi dari file xlsx':
+if pilihan == 'Prediction from file xlsx':
     # Mengupload file
     upload_file = st.file_uploader('Pilih file xlsx')
     if upload_file is not None:
