@@ -37,7 +37,7 @@ if pilihan == 'Prediksi dari file xlsx':
         st.error('File yang diupload kosong, silakan pilih file yang valid')
         #st.markdown('File yang diupload kosong, silakan pilih file yang valid')
 else:
-   st.write('coba')
+   st.write('Welcome')
    
    # Baris Pertama
    with st.container():
